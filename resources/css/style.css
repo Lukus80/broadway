@@ -1,8 +1,7 @@
 body {
   text-align: center;
   font-family: Helvetica;
-  align-content: center;
-
+  align-content: center
 }
 
 p {
@@ -18,7 +17,7 @@ h2 {
   font-size: 32px;
 }
 
-.header-nav {
+.image-header {
   background: url("../images/the-flatiron-building.png");
   color: white;
   object-fit: fill;
@@ -26,19 +25,14 @@ h2 {
 
 h3 {
   font-size: 23px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 a {
   color: white;
   font-size: 18px;
   line-height: 1.5;
-}
-
-.white{
-  color: white;
-  background: url("../images/the-flatiron-building.png");
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 footer {
@@ -50,4 +44,8 @@ footer {
 
 .copyright {
   font-size: 11px;
+}
+
+ul {
+  padding-left: 0;
 }
